@@ -1,6 +1,6 @@
 schemaVersion: 2.2.0
 metadata:
-  name: villain-service
+  name: fight-service
 components:
   - name: tools
     container:
@@ -46,7 +46,7 @@ components:
           protocol: http
           targetPort: 5005
         - name: tests
-          targetPort: 8081
+          targetPort: 8092
           exposure: none
           secure: false
           protocol: tcp
